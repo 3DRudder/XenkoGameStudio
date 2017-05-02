@@ -1,0 +1,11 @@
+!ProceduralModelAsset
+Id: 8c1096ea-203c-4cf7-939d-99a5bdb014da
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: !TorusProceduralModel
+    Thickness: 0.0125
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: 02a88359-6ad3-421a-8380-9cdc239660ff:Lamp material

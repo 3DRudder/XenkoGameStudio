@@ -1,0 +1,7 @@
+!Texture
+Id: bdcdf6ba-5676-4596-be61-00e3b87b16e5
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Resources/skybox_texture_hdr.dds
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

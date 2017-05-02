@@ -1,0 +1,7 @@
+!Texture
+Id: 310d62b9-1c81-443c-9917-187424edf22b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/xenko_box_occlusion.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
