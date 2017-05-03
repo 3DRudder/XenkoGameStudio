@@ -1,6 +1,4 @@
-﻿// Copyright (c) 2011-2017 Silicon Studio Corp. All rights reserved. (https://www.siliconstudio.co.jp)
-// See LICENSE.md for full license information.
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,14 +6,18 @@ using System.Threading.Tasks;
 using SiliconStudio.Core.Mathematics;
 using SiliconStudio.Xenko.Input;
 using SiliconStudio.Xenko.Engine;
+using SiliconStudio.Xenko.UI;
+using SiliconStudio.Xenko.UI.Controls;
 using ns3DRudder;
+using System.Text.RegularExpressions;
 
 namespace Xenko3dRudder
 {
     public class Movement3dRudder : SyncScript
     {
         // Declared public member fields and properties will show in the game studio
-        public Entity Camera { get; set; }       
+        public Entity Camera { get; set; }
+        public UIPage Page { get; set; }        
         public uint Port3dRudder { get; set; } = 0;
         public bool Rotate { get; set; } = false;
         public ModeAxis mode { get; set; } = ModeAxis.ValueWithCurveNonSymmetricalPitch;
@@ -26,6 +28,7 @@ namespace Xenko3dRudder
         private CSdk sdk;
         private CurveArray curves;
         private Axis axis;
+        private TextBlock status;
         
         public override void Start()
         {
@@ -33,10 +36,14 @@ namespace Xenko3dRudder
             sdk = i3DR.GetSDK();
             curves = new CurveArray();
             axis = new Axis();
+            
+            var root = Page.RootElement;
+            status = root.FindVisualChildOfType<TextBlock>("Status");
         }
 
         public override void Update()
         {
+            status.Text = Regex.Replace(sdk.GetStatus(0).ToString(), "(\\B[A-Z])", " $1").ToUpper();
             // 3dRudder connected
             if (sdk.IsDeviceConnected(Port3dRudder))
             {

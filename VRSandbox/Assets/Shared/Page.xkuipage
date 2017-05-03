@@ -9,11 +9,28 @@ Hierarchy:
         - c8a83548-ab0a-420d-82bc-ded3b9b36b34
     Parts:
         -   UIElement: !TextBlock
+                Id: 293e53ee-874c-4a73-9ae2-e44b195e540f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 255, B: 199, A: 255}
+                Width: 512.0
+                Height: 115.0
+                VerticalAlignment: Bottom
+                Margin: {Bottom: 133.0}
+                Name: 
+                Text: Status 3dRudder
+                Font: 3a8a297a-d543-4202-9ff9-d2925298e9b9:SpriteFont
+                TextSize: 40.0
+                TextColor: {R: 1, G: 1, B: 1, A: 255}
+                TextAlignment: Center
+                WrapText: true
+        -   UIElement: !TextBlock
                 Id: 48e2f7cf-b8a6-4262-b9e5-6735f2226245
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
-                Margin: {}
-                Text: You can display UI easily using overlays. Check out the GraphicsCompositor and the UIPage assets for details.
+                Width: 512.0
+                Height: 297.0
+                Margin: {Bottom: 215.0}
+                Text: can display UI easily using overlays. Check out the GraphicsCompositor and the UIPage assets for details.
                 Font: 3a8a297a-d543-4202-9ff9-d2925298e9b9:SpriteFont
                 TextSize: 36.0
                 TextColor: {R: 240, G: 240, B: 240, A: 255}
@@ -25,6 +42,23 @@ Hierarchy:
                 Margin: {}
                 Children:
                     e83e06b3b5534c1eeea7ea008c95530a: !TextBlock ref!! 48e2f7cf-b8a6-4262-b9e5-6735f2226245
+                    6ea2b66b2249b44af88423738bb5dabe: !TextBlock ref!! 293e53ee-874c-4a73-9ae2-e44b195e540f
+                    a27dec9ac56ac41ee54985cb51ddbbb8: !TextBlock ref!! f1b65aa0-5626-4f07-adc2-7ca0f96cd27d
                 RowDefinitions: {}
                 ColumnDefinitions: {}
                 LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: f1b65aa0-5626-4f07-adc2-7ca0f96cd27d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 255, B: 199, A: 255}
+                Width: 512.0
+                Height: 133.0
+                VerticalAlignment: Bottom
+                Margin: {}
+                Name: Status
+                Text: 
+                Font: 3a8a297a-d543-4202-9ff9-d2925298e9b9:SpriteFont
+                TextSize: 40.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+                TextAlignment: Center
+                SynchronousCharacterGeneration: true

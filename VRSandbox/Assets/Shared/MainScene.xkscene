@@ -114,6 +114,7 @@ Hierarchy:
                     8440e488bc01259a140ead20182a7c7f: !Xenko3dRudder.Movement3dRudder,VRSandbox.Game
                         Id: ed3b68d0-0d18-4a1c-90a0-a2e52ec89785
                         Camera: ref!! c0a4222a-ae01-420f-8bb5-1e82ad1cfcf3
+                        Page: d93c8e1d-ccc0-4626-9555-acc087a6ba57:Page
                         Port3dRudder: 0
                         Rotate: true
                         mode: ValueWithCurveNonSymmetricalPitch
