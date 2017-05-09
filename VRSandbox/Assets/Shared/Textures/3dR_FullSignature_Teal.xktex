@@ -1,0 +1,10 @@
+!Texture
+Id: 78602fa9-69a1-4512-8128-a309ce4be39e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/3dR_FullSignature_Teal.png
+Width: 900.0
+Height: 750.0
+IsSizeInPercentage: false
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
