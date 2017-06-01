@@ -23,11 +23,11 @@
 * In Visual Studio right click on Reference -> Add Reference -> Select ```3dRudderSDK\Bin\Win32\3DRudderSDK.net.dll```
 * Create a SyncScript class
 * Include 
-  ```
+  ```C#
   using ns3DRudder;
   ```
 * Init SDK 
-  ```
+  ```C#
   private CSdk sdk;
   private CurveArray curves;
   private Axis axis;
@@ -40,7 +40,7 @@
   }
   ```
 * Get values of axis:
-  ```
+  ```C#
   public override void Update()
   {
       ErrorCode error = sdk.GetAxis(0, ModeAxis.ValueWithCurveNonSymmetricalPitch, axis, curves);
@@ -52,7 +52,7 @@
   }
   ```
  * Free SDK 
-  ```
+  ```C#
   public override void Cancel()
   {
       i3DR.EndSDK();
