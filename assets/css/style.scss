@@ -17,3 +17,18 @@
   background-size: contain;
   height: 100px
 }  
+
+img[alt=small_img] 
+{ 
+  width: 64px;
+}
+
+img[alt=medium_img] 
+{ 
+  width: 256px;
+}
+
+img[alt=big_img] 
+{ 
+  width: 512px;
+}
