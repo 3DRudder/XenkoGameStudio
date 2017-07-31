@@ -1,6 +1,1 @@
-# List
-
-{% for repository in site.github.public_repositories %}
-### [{{ repository.name }}]({{ repository.html_url }}) ({{ repository.size }} Ko)
-* {{ repository.description }} [[Download release]({{ repository.html_url }}/releases/)]
-{% endfor %}
+# 3dRudder custom theme based on jekyll theme [slate](https://pages-themes.github.io/slate/)
