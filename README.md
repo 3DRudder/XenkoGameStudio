@@ -18,5 +18,15 @@
 * copy/past the content of master "ReadMe.md" into the "index.md"
 * push
 
+# Test in local
+
+* Open cmd or bash on root of project
+* Check ruby is installed : 'ruby --version'
+* Install bundle : 'bundle install'
+* Install jekyll : 'gem install jekyll bundler'
+* Add in _config.yml 'repository: 3dRudder/project_name'
+* Launch server : 'bundle exec jekyll serve'
+* Test : 'http://127.0.0.1:4000/'
+
 # Soon
 * launch .bat or .cmd to update automaticaly
