@@ -1,4 +1,4 @@
-title: [3dRudder Repositories]
-#show_downloads: "false"
+#title: [3dRudder XenkoGameStudio]
+show_downloads: "true"
 theme: jekyll-theme-slate
-repository: 3dRudder/3dRudder.github.io
+repository: 3dRudder/XenkoGameStudio
