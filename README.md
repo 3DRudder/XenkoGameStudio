@@ -4,8 +4,7 @@
 
 * create new branch: "gh-pages"
 * add remote "pages" : ```git remote add pages git@github.com:3DRudder/3dRudder.github.io.git```
-* pull/merge "pages" into branch "gh-pages" : ```git checkout gh-pages``` and ```git pull pages master --allow-unrelated-histories```
-* resolve conflics (ReadMe.md keep yours)
+* pull/merge "pages" into branch "gh-pages" : ```git pull -Xours pages master --allow-unrelated-histories```
 * copy/past the content of master "ReadMe.md" into the "index.md"
 * push (maybe force push if fail)
 * look the result on browser ```3dRudder.github.io/name_of_repo```
@@ -13,8 +12,7 @@
 # Update theme
 
 * go to your "gh-pages" branch
-* pull/merge : ```git pull pages master --allow-unrelated-histories```
-* resolve conflics
+* pull/merge : ```git pull -Xours pages master --allow-unrelated-histories```
 * copy/past the content of master "ReadMe.md" into the "index.md"
 * push
 
