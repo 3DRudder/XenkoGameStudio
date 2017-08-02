@@ -5,7 +5,7 @@
 ![Firmware 3dRudder](https://img.shields.io/badge/Firmware%203dRudder-%3E%20v1.3.5.2-brightgreen.svg)
 
 # Xenko Game Studio VR Sample v0.1 Free Locomotion
-* Works with the Oculus Rift (Oculus Home), and soon with the HTC VIVE (SteamVR).
+* Works with the Oculus Rift (Oculus Home) and the HTC VIVE (SteamVR).
 * Thanks to 3dRudder you can move with your foot (translation/rotation), and have free hand in VR.
 
 ## Download Sample
