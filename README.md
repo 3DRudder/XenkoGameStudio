@@ -6,6 +6,10 @@
 * add remote "pages" : ```git remote add pages git@github.com:3DRudder/3dRudder.github.io.git```
 * pull/merge "pages" into branch "gh-pages" : ```git pull -Xours pages master --allow-unrelated-histories```
 * copy/past the content of master "ReadMe.md" into the "index.md"
+* Add in _config.yml 
+  * ```repository: 3dRudder/the_project_name```
+  * ```show_downloads: "true"```
+  * comment ```#title: [3dRudder Repositories]``` or modify ```title: [3dRudder the_project_name]```
 * push (maybe force push if fail)
 * look the result on browser ```3dRudder.github.io/name_of_repo```
 
@@ -22,7 +26,10 @@
 * Check ruby is installed : ```ruby --version```
 * Install bundle : ```bundle install```
 * Install jekyll : ```gem install jekyll bundler```
-* Add in _config.yml ```repository: 3dRudder/project_name```
+* Add in .gitignore 
+  * ```_site/```
+  * ```Gemfile.lock```
+  * ```.gem```
 * Launch server : ```bundle exec jekyll serve```
 * Test : http://127.0.0.1:4000/
 
