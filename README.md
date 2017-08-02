@@ -7,7 +7,7 @@
 * pull/merge "pages" into branch "gh-pages" : ```git pull -Xours pages master --allow-unrelated-histories```
 * copy/past the content of master "ReadMe.md" into the "index.md"
 * Add in _config.yml 
-  * ```repository: 3dRudder/the_project_name```
+  * ```repository: 3dRudder/name_of_repo```
   * ```show_downloads: "true"```
   * comment ```#title: [3dRudder Repositories]``` or modify ```title: [3dRudder the_project_name]```
 * push (maybe force push if fail)
