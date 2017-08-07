@@ -35,3 +35,6 @@
 
 # Soon
 * launch .bat or .cmd to update automaticaly
+
+# Tools
+* https://help.github.com/articles/repository-metadata-on-github-pages/
